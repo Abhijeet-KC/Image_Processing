@@ -194,3 +194,4 @@ cython_debug/
 .cursorindexingignore
 
 Classification_Using_LeNet/data/
+GAN/data/
