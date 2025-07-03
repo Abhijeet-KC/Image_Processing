@@ -196,3 +196,4 @@ cython_debug/
 3. Classification_Using_LeNet/data/
 4. Segmentation_Using_UNet/data/
 5. GAN/data/
+dino/
