@@ -3,3 +3,7 @@ scipy
 matplotlib
 opencv-python
 scikit-image
+scikit_learn
+pillow
+tqdm
+jupyter
