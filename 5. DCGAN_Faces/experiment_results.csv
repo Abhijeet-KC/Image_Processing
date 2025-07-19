@@ -1,0 +1,2 @@
+latent_dim,gen_feature_map_base,disc_feature_map_base,batch_size,epochs,learning_rate,FID,Inception Score
+100,512,64,128,100,0.0002,324.8424072265625,1.8386999368667603
