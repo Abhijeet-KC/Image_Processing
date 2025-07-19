@@ -198,3 +198,4 @@ cython_debug/
 5. GAN/data/
 dino/
 Assignments/Assignment_1yolov5su.pt
+5. DCGAN_Faces/dataset
