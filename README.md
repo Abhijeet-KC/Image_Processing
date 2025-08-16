@@ -46,7 +46,6 @@ pip install -r requirements.txt
 - `matplotlib`
 - `opencv-python`
 - `scikit-learn`
-- `tensorflow` / `keras`
 - `pytorch` (for GAN/UNet parts, if included)
 
 ---
