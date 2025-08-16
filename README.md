@@ -1,4 +1,4 @@
-# 🖼️ Image Processing
+# Image Processing
 
 This repository provides a collection of assignments, experiments, and implementations in **Image Processing** and **Deep Learning**.  
 It covers classical techniques (augmentation, filtering, morphology, compression) as well as modern neural network–based methods (CNNs, GANs, UNet, etc.).
@@ -38,7 +38,7 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 
-## ⚙️ Main Libraries
+## Main Libraries
 
 - `numpy`
 - `matplotlib`
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 - `pytorch` (for GAN/UNet parts, if included)
 
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository:
 
@@ -56,7 +56,7 @@ git clone https://github.com/Abhijeet-KC/Image_Processing.git
 cd Image_Processing
 ```
 
-## 📊 Highlights
+## Highlights
 
 - Classical image processing operations (augmentation, morphology, filtering, edge detection)
 - Compression implementation with JPEG pipeline
