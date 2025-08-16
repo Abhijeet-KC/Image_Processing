@@ -3,7 +3,6 @@
 This repository provides a collection of assignments, experiments, and implementations in **Image Processing** and **Deep Learning**.  
 It covers classical techniques (augmentation, filtering, morphology, compression) as well as modern neural network–based methods (CNNs, GANs, UNet, etc.).
 
----
 
 ## 📂 Repository Structure
 
@@ -31,7 +30,6 @@ It covers classical techniques (augmentation, filtering, morphology, compression
 - **Assignments**  
   Collection of smaller image processing exercises and lab work.  
 
----
 
 ## ⚙️ Requirements
 
@@ -48,7 +46,6 @@ pip install -r requirements.txt
 - `scikit-learn`
 - `pytorch` (for GAN/UNet parts, if included)
 
----
 
 ## 🚀 Getting Started
 
@@ -57,6 +54,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/Abhijeet-KC/Image_Processing.git
 cd Image_Processing
+```
 
 ## 📊 Highlights
 
