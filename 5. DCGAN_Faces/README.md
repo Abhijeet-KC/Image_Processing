@@ -2,7 +2,7 @@
 
 This directory contains the progression of generated images from a Deep Convolutional Generative Adversarial Network (DCGAN) trained on a face dataset. 
 
-Over the course of 300 epochs, the model learns to generate increasingly realistic human faces from random noise. The images below demonstrate the remarkable improvement of the Generator network at various stages of the training process.
+Over the course of 300 epochs, the model learns to generate increasingly better in structure human faces from random noise. The images below demonstrate the remarkable improvement of the Generator network at various stages of the training process.
 
 ## Epoch Progression
 
@@ -36,18 +36,21 @@ Hair boundaries, lighting, and expressions show distinct refinement.
 The network is now effectively removing prominent artifacts, yielding smoother textures.
 ![Epoch 210](./Output_with_epoch_progress/fake_epoch_210.png)
 
-### Epoch 245: High Realism
-The generated faces are looking quite realistic, closely mirroring the diversity in the training dataset.
+### Epoch 245: Facial Structures
+The generated faces are slowly starting to appear, closely mirroring the diversity in the training dataset.
 ![Epoch 245](./Output_with_epoch_progress/fake_epoch_245.png)
 
 ### Epoch 280: Fine-Tuning
-Minor details and color balancing are improved continually.
+Minor details and distribution of color bands balancing are improved continually.
 ![Epoch 280](./Output_with_epoch_progress/fake_epoch_280.png)
 
 ### Epoch 300: Final Output
-The final epoch showcases the best result the generator can produce after full training, demonstrating realistic face synthesis capabilities.
+The final epoch showcases the best result the generator can produce after full training, demonstrating face synthesis capabilities despite the limited constraints.
 ![Epoch 300](./Output_with_epoch_progress/fake_epoch_300.png)
 
 ## Conclusion
 
 Creating this set of progression images serves as a proof of work showing the gradual process of the Generator network fooling the Discriminator over iterations. It highlights the power of adversarial training in arriving at complex, high-dimensional distributions like those of human facial structures.
+
+### Note
+The faces still don't look realistic and distinguishing because of the limited dataset used which are also further downsampled due to limiting constraints with the resources to train. And given that if it had been trained to more epochs let's say around 800+, the results could have been distinguishing and better looking.
